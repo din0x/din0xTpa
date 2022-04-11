@@ -1,0 +1,23 @@
+#din0xTpa
+
+
+
+#Texts:
+ConsoleCantUse: "This command is only for players."
+PlayerIsOffline: "This player is offline."
+InvalidTpaCommandUsage: "Use: /tpa <Player>"
+TpaRequestSent: "Request sent to "
+TpaReceivedRequest: " has sent you a teleport request!"
+TpaDeny: "has rejected request."
+TpaRejected: "You have rejected request form "
+TpaAccept: "You've been teleported to "
+TpaCancel: "You've canceled request."
+TpaCanceled: "has canceled request."
+NoRequest: "You've no request from this player."
+NotRequested: "You haven't sent request to this player."
+RequestHasExpired: "This request has expired."
+
+#Settings:
+TpaRequestExpireTime: 6000  #value in tick, 1 second is 20 ticks
+                            #Default: 6000 ticks - 5 minutes
+                            #Plugin will refresh requests evey 15 seconds.
